@@ -1,6 +1,6 @@
 Name:           p54pci-firmware
 Version:        2.17.2.0
-Release:        9%{?dist}
+Release:        10%{?dist}
 Summary:        Firmware for the Linux p54pci driver
 
 License:        Redistributable, no modification permitted
@@ -31,6 +31,9 @@ install -pm 0644 %{SOURCE0} %{buildroot}/lib/firmware/isl3886pci
 
 
 %changelog
+* Sun Jul 27 2025 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 2.17.2.0-10
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_43_Mass_Rebuild
+
 * Wed Jan 29 2025 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 2.17.2.0-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_42_Mass_Rebuild
 
